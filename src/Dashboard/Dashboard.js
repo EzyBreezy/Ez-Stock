@@ -17,7 +17,7 @@ class Dashboard extends Component {
     //console.log(something)
     return (
       <div>
-        <StockNames/>
+        {/* <StockNames/> */}
       </div>
     );
   }

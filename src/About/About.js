@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './Nav.css';
+import './About.css';
 
 
-class Nav extends Component {
+class About extends Component {
     constructor(props){
         super(props)
         this.state = {
@@ -15,12 +15,12 @@ class Nav extends Component {
 render() {
   //console.log(something)
     return (
-      <div className="navContainer" >
-        <a href="/stocks"className="homebutton"> Home </a>
-        <a href="/about"className="about"> About </a>
+      <div>
+          <h1> About Page </h1>
+          <p> Whats up doc</p>
       </div>
     );
   }
 }
 
-export default Nav;
+export default About;
